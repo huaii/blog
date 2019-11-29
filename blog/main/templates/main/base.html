@@ -4,7 +4,8 @@
 <head>
 <title>部落格</title>
 <meta charset="utf-8">
-<link rel="stylesheet" href="{% static 'main/css/main.css' %}">
+<link rel="stylesheet" href="/static/main/css/main.css">
+{% block css %}{% endblock %}
 </head>
 <body>
 {% include 'main/menu.html' %}
